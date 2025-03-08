@@ -6,3 +6,15 @@
   flex-direction: column;
   gap: 20px;
 }
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
