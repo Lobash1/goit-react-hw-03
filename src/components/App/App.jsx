@@ -3,6 +3,7 @@ import SearchBox from "../SearchBox/SearchBox";
 import css from "./App.module.css";
 import { useState, useEffect } from "react";
 import ContactList from "../ContactList/ContactList";
+import * as Yup from "yup";
 import users from "../../contacts.json"; // Імпортуємо дані з contacts.json
 
 export default function App() {
