@@ -1,6 +1,7 @@
 .item {
   padding: 20px;
-  width: 250px;
+  width: 170px;
+  height: auto;
   border-bottom: 1px solid #423b3b;
   background-color: #f5eef1;
   border-radius: 8px;
@@ -16,7 +17,7 @@
 .contact .info {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .contact p {
@@ -24,15 +25,15 @@
 }
 
 .deleteBtn {
-  background-color: #f44336;
+  background-color: #e63946;
   color: white;
   border: none;
-  height: 26px;
-  padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-top: 8px;
   cursor: pointer;
+  font-size: 14px;
   transition: background-color 0.3s ease;
-  margin-top: 15px;
 }
 
 .deleteBtn:hover {
